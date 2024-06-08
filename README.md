@@ -16,12 +16,12 @@ pythone -m venv myenv
 env\Scripts\activate
 ```
 
-# Install Dependencies
+## Install Dependencies
 ```bash
 pip install alembic psycopg2 sqlalchemy libpq-dev fastapi
 ```
 
-#Create Migrations Environment
+## Create Migrations Environment
 ```bash
 alembic unit
 '''
@@ -37,7 +37,7 @@ alembic revision --autogenerate -m "unit"
 alembic upgrade head
 ```
 
-#You're all set.
+## You're all set.
 
 Run this command to start your server listening on a PORT:
 ```bash
