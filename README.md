@@ -24,7 +24,7 @@ pip install alembic psycopg2 sqlalchemy libpq-dev fastapi
 ## Create Migration Environment
 
 ```bash
-alembic unit
+alembic init
 ```
 
 Find and open alembic.ini in your directory and change the 'sqlalchemy.url' to your database URI.
