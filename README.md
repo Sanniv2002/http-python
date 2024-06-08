@@ -21,7 +21,8 @@ env\Scripts\activate
 pip install alembic psycopg2 sqlalchemy libpq-dev fastapi
 ```
 
-## Create Migrations Environment
+## Create Migration Environment
+
 ```bash
 alembic unit
 '''
