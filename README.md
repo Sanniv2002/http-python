@@ -45,3 +45,9 @@ Run this command to start your server listening on a PORT:
 uvicorn main:app --reload
 ```
 *Never use the '--reload' flag in production.
+
+## Test the application 
+
+You can know the available http methods from looking at the fastapi docs.
+
+http:/127.0.0.1:8000/docs
