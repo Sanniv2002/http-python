@@ -34,7 +34,7 @@ Also change the URL in database.py file to your db URI.
 ## Create and apply Migrate db
 
 ```bash
-alembic revision --autogenerate -m "unit"
+alembic revision --autogenerate -m "init"
 alembic upgrade head
 ```
 
